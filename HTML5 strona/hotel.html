@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Hotel</title>
+    <meta charset='UTF-8'>
+    <meta name="keywords" content="Restaurant, Al Capone, Italy, Pizza, Hotel">
+    <meta name="description" content="Al Capone restaurant hotel page.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="hotel.html">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="cssStyle.css">
+	<style>
+        table{
+			margin-left: auto;
+			margin-right: auto;
+            margin-bottom: 50px;
+			margin-top: 50px;
+			color:white; 
+			font-size: 30px;
+        }
+		td, th{
+			padding: 10px;
+			text-align: center;
+		}
+		table caption{
+			font-size: 32px;
+			text-align: center;
+			color: white;
+		}
+        tfoot {
+			font-size: 15px;
+			padding: 5px;
+		}
+
+			
+    </style>
+</head>
+<body>
+	<div class="header">
+        <h1>Al Capone Restaurant</h1>
+	</div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="mainPage.html">HOME</a>
+			</div>
+			<div id="myNavbar" style="min-width: 600px;">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li>
+						<div class="dropdown">
+							<p>SERVICES</p>
+							<div class="dropdown-content">
+								<a href="restaurant.html">RESTAURANT</a>
+								<a href="hotel.html">HOTEL</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="chef.html">CHEFS</a></li>
+					<li><a href="History.html">HISTORY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <div class='container-fluid'>
+		<div class="row">
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-8">
+				<h3 style="text-align:center;">Hotel</h3>
+				<p style='font-size: 25px; text-align:center'>
+				 You can ask us about the availabilty of rooms or make the reservation either<br> 
+				 with the phone: +48 123 456 789<br>
+				 or send us an email:&emsp;<a href="mailto:238179@student.pwr.edu.pl" style='font-size: 25px; color:white;'><u>Send email!</u></a>
+				</p>
+	
+			</div>
+		
+			<div class="col-sm-2">
+			</div>
+		</div>
+	</div>
+	<div id="responsivetable">
+		<table class="table">
+					<caption><b>Price list</b></caption>
+					<thead>
+						<tr>
+							<th>Room type</th>
+							<th>Price per night</th>
+							<th>Price per night(promo*)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Single room</td>
+							<td>40$</td>
+							<td>36$</td>
+						</tr>
+						<tr>
+							<td>Room for 2</td>
+							<td>60$</td>
+							<td>54$</td>
+						</tr>
+						<tr>
+							<td>Room for 3</td>
+							<td>75$</td>
+							<td>67,5$</td>
+						</tr>
+						<tr>
+							<td>Room for 4</td>
+							<td>90$</td>
+							<td>81$</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3"> *book for at least 5 days and recieve 10% discount </td>
+						</tr>
+					</tfoot>
+		</table>
+	</div>
+	<div class='container-fluid'>
+		<div class="row">
+			<footer>
+				<p><em><b>copyright &copy; Jacek &amp; Kuba &amp; Michał SA</b></em></p>
+			</footer>
+		</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootsrap page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			font: 20px "Montserrat", sans-serif;
+			line-height: 1.8;
+			color: #f5f6f7;
+		}
+		p {
+			font-size: 16px;
+		}
+		.container-fluid {
+			padding-top: 60px;
+			padding-bottom: 80px;
+		}
+		.bg-1 {
+			background-image: url("deski2.jpg");
+			color: white;
+		}
+		.bg-2 {
+			background-image: url("deski2.jpg");
+			color: red;
+			font-size: 30px;
+		}
+		.bg-3 {
+			background-image: url("deski2.jpg");
+			color: yellow;
+		}
+		.bg-4 {
+			background-color: #2f2f2f;
+			color: #ffffff;
+		}
+		.navbar {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border: 0;
+			border-radius: 0;
+			margin-bottom: 0;
+			font-size: 12px;
+			letter-spacing: 5px;
+		}
+		.navbar-nav li a:hover {
+			color: #1abc9c !important;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Me</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#fst">WHO</a></li>
+					<li><a href="#sec">WHAT</a></li>
+					<li><a href="#thd">WHERE</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid bg-1 text-center" id="fst">
+		<h3>Hi there! This is bootrap page.</h3>
+		<img src="chief.jpg" class="img-circle" alt="Our chief!" style="width: 50%">
+		<a href="#thd" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-picture"> Picture</a>
+	</div>
+	<div class="container-fluid bg-2 text-center" id="sec">
+		<div class="row">
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum sapien eu mauris semper scelerisque. 
+				Pellentesque tincidunt vehicula tortor ac scelerisque. Cras justo sem, facilisis ac luctus at, fermentum eu dui. 
+				In imperdiet tortor et turpis lobortis lacinia. Pellentesque gravida leo lectus. Nam sed ligula a tellus consequat pellentesque ac non sapien. 
+				In pretium est erat, at egestas mauris feugiat ultricies. Ut aliquam pretium quam vel pharetra.</p>
+			</div>
+			<div class="col-sm-4">
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-3" id="thd">
+		<img src="chief.jpg" alt="Our chief!" style="width: 50%">
+	</div>
+	<footer class="container-fluid bg-4 text-center">
+		<p>Bootsrap Theme Made By <a href="https://www.w3school.com">www.w3school.com</a></p>
+	</footer>
+</body>
+</html>

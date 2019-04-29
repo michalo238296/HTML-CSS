@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Gallery</title>
+    <meta charset='UTF-8'>
+    <meta name="keywords" content="Restaurant, Al Capone, Italy, Pizza, Gallery">
+    <meta name="description" content="Al Capone restaurant gallery page.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="gallery.html">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="cssStyle.css">
+    <style>
+        #gallery {
+			text-align: center;
+        }
+        
+		#gallery img {
+            border-radius: 12px;
+            width: 400px;
+            height: 300px;
+			margin-top: 25px;
+            margin-bottom: 25px;
+			border: 3px solid black;
+			transition: width 1s, height 1s, border 1s;
+        }
+		
+		#gallery img:hover {
+			width: 480px;	
+			height: 360px;
+			border: 6px solid black;
+		}
+			
+		#gallery h3 {
+			text-align: center;
+			font-size: 40px;
+			color: white;
+			margin-bottom: 40px;
+			font-family: arialblack;
+		}				
+    </style>
+</head>
+<body>
+	<div class="header">
+        <h1>Al Capone Restaurant</h1>
+	</div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="mainPage.html">HOME</a>
+			</div>
+			<div id="myNavbar" style="min-width: 600px;">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li>
+						<div class="dropdown">
+							<p>SERVICES</p>
+							<div class="dropdown-content">
+								<a href="restaurant.html">RESTAURANT</a>
+								<a href="hotel.html">HOTEL</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="chef.html">CHEFS</a></li>
+					<li><a href="History.html">HISTORY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <div class='container-fluid'>
+		<div class="row" id="gallery">
+			<h3>Gallery</h3>
+			<div class="col-sm-4">
+				<img src='images/food1.jpg' alt='Food_1'>
+				<img src='images/food2.jpg' alt='Food_2'>
+				<img src='images/restaurant1.jpg' alt='Restaurant_1'>
+				<img src='images/restaurant2.jpg' alt='Restaurant_2'>
+			</div>
+			<div class="col-sm-4">
+				<img src='restaurant3.jpg' alt='Restaurant_3'>
+				<img src='food3.jpg' alt='Food_3'>
+				<img src='food4.jpg' alt='Food_4'>
+				<img src='restaurantInsidev1.jpg' alt='Restaurant_5'>
+			</div>
+			<div class="col-sm-4">
+				<img src='../AlsoImages/food5.jpg' alt='Food_5'>
+				<img src='../AlsoImages/restaurantInsidev2.jpg' alt='Restaurant_6'>
+				<img src='../AlsoImages/restaurant4.jpg' alt='Restaurant_4'>
+				<img src='../AlsoImages/wine1.jpg' alt='Wine_1'>
+			</div>
+		</div>
+		<div class="row">
+			<footer>
+				<p><em><b>copyright &copy; Jacek &amp; Kuba &amp; Michał SA</b></em></p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

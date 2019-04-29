@@ -1,0 +1,128 @@
+		* {
+			box-sizing: border-box;
+		}
+		
+		@font-face {
+			font-family: myFirstFont;
+			src: url('https://fonts.googleapis.com/css?family=Handlee');
+			font-weight: bold;
+}
+		
+		body{
+			background-image:url('deski2.jpg');
+			background-attachment: fixed;
+			background-color: #D6CB00;
+			
+		}
+		nav {
+			font: 20px Arial, sans-serif;
+			
+		}
+		
+		.col-sm-8 p {
+			font: 25px timesnewroman;
+            color: white;
+		}
+		.header h1 {
+            text-align: center;
+            font-size: 80pt;
+			color: antiquewhite;
+			padding-bottom: 20px;
+			font-family: myFirstFont, cursive;
+			text-shadow: 8px 8px 16px #000000;
+        }
+		.header hr {
+            border-width: 5px;
+        }
+		h3 {
+            text-align: center;
+            font-size: 40px;
+            color: white;
+			margin-bottom: 40px;
+			text-shadow: 4px 4px 8px #000000;
+        }
+		footer {
+			margin-top: 50px;
+            background-color: #CCAB04;
+            padding: 10px;
+            border-style: solid;
+            border-color: black;
+            border-width: 5px 0px 0px 0px;
+			background-image: linear-gradient(#ffffb3, #333300);
+        }
+            footer p {
+                text-align: center;
+                margin: 2px;
+            }
+		table {
+			border: double;
+		}
+		#responsivetable {
+			overflow-x:auto;
+		}
+		td, th{
+			padding: 10px;
+			text-align: center;
+		}
+		tr {
+			background-color: SandyBrown  ;
+		}
+		tr:nth-child(even) {
+			background-color: SaddleBrown;
+		}
+		tfoot tr{
+			background-color: grey;
+		}
+		th{
+			color: white;
+			background-color: grey;
+			
+		}
+		
+		.navbar {
+			position: sticky;
+			background-image: radial-gradient(#ffffff, #666666);
+			border-style: solid;
+            border-color: black;
+            border-width: 5px;
+		}
+		
+		.dropdown p {
+			position: relative;
+			display: inline-block;
+			text-decoration: none;
+			color: #777;
+			line-height: 20px;
+			padding-top: 15px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f8f8f8;
+			box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.8);
+			z-index: 1;
+			color: #777;
+			line-height: 30px;
+			padding: 10px;
+			background-image: radial-gradient(#ffffff, #666666);
+			border-style: solid;
+            border-color: black;
+            border-width: 5px;
+		}
+		
+		.dropdown-content a {
+			text-decoration: none;
+			color: #777;
+		}
+
+		.dropdown:hover .dropdown-content{
+			display: block;
+			color: black;
+		}
+		
+		.dropdown-content a:hover{
+			color: black;
+		}

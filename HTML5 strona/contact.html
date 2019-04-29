@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Contact</title>
+	<meta charset='UTF-8'>
+	<meta name="keywords" content="Restaurant, Al Capone, Italy, Pizza, Contact">
+    <meta name="description" content="Al Capone restaurant contact page.">
+	<meta name="veiwport" content="width=device-width, initial-scale=1">
+	<base href="contact.html">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="cssStyle.css">
+	<style>
+		fieldset legend {
+			color: white;
+			font-size: 20px;
+			text-align: center;
+		}
+		.col-sm-8 h3{
+			text-align: center;
+			font-size: 40px;
+			color: white;
+			margin-bottom: 10px;
+		}
+		.col-sm-8 fieldset {
+			padding: 20px;
+			border: 8px solid black;
+			width: 500px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+		.col-sm-8 .form1 input[type="submit"], #reset{
+			width:115px;
+			height:30px;
+			border:none;
+			margin-top:20px;
+			cursor:pointer;
+		}
+		.col-sm-8 input[type="text"], textarea {
+			width:300px;
+		}
+		.col-sm-8 textarea{
+			height:100px;
+			resize: none;
+		}
+		.col-sm-8 .form1 label {
+			text-align: center;
+			color: white;
+			display:block;
+			margin-top:20px;
+			letter-spacing:2px;
+		}
+		.col-sm-8 .form2 label {
+			color: white;
+			font-size:25px;
+		}
+		.col-sm-8 p{
+			text-align: center;
+			font-size: 45px;
+			color: yellow;
+			margin-bottom: 50px;
+		}
+		.col-sm-8 legend {
+			font-size: 50px;
+			width: 300px;
+		}
+		#fh, #fc{
+			text-align: center;
+			color: white;
+			display:block;
+			margin-top:20px;
+			letter-spacing:2px;
+		}
+		.radios{
+			text-align: center;
+			color: white;
+			display:block;
+			margin-top:20px;
+			letter-spacing:2px;
+		}
+		.buttons{
+			text-align: center;
+			display:block;
+			margin-top:20px;
+			letter-spacing:2px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+        <h1>Al Capone Restaurant</h1>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="mainPage.html">HOME</a>
+			</div>
+			<div id="myNavbar" style="min-width: 600px;">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li>
+						<div class="dropdown">
+							<p>SERVICES</p>
+							<div class="dropdown-content">
+								<a href="restaurant.html">RESTAURANT</a>
+								<a href="hotel.html">HOTEL</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="chef.html">CHEFS</a></li>
+					<li><a href="History.html">HISTORY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class='container-fluid'>
+		<div class="row">
+			<div class="col-sm-2">
+			</div>
+			<div class="col-sm-8">
+				<h3>Address:</h3>
+				<p>Wrocław <br> ul.Plac Grunwaldzki 11</p>
+				<h3>Phone number:</h3>
+				<p>+48 111-222-333</p>
+				<h3>E-mail address:</h3>
+				<p>alcapone@o2.pl</p>
+				<h3>Opening hours:</h3>
+				<p>Monday-Friday: 11-22 <br> Saturday, Sunday: 12-24</p>
+				<form class="form1"action="mailto:alcapone@o2.com" method="post">
+					<fieldset>
+						<legend>Contact Us!</legend>
+						<label>Name</label>
+							<input name="name" placeholder="Name...">
+						<label>Email</label>
+							<input name="email" type="email" placeholder="Your e-mail...">
+						<label>Message</label>
+							<textarea name="message" placeholder="Type Here..."></textarea><br>
+						<input id="submit" name="submit" type="submit" value="Submit"> <input id="reset" type="reset" value="Reset">
+					</fieldset>
+				</form>
+				<form class='form2'>
+				  <fieldset>
+					<legend>Rate Us!</legend>
+					<div class="form-group" id="fh">
+					  <label>choose grade 1-5:</label>
+					</div>
+					<div class="radios">
+						<label class="radio-inline">
+						  <input type="radio" name="optradio">1
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="optradio">2
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="optradio">3
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="optradio">4
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="optradio">5
+						</label>
+					</div>
+					<div class="form-group" id="fc">
+					  <label for="comment">Comment:</label>
+					  <textarea class="form-control" rows="5" id="comment"></textarea>
+					</div>
+					<div class="buttons">
+						<input class="btn btn-primary" type="submit" value="Rate">
+						<input class="btn btn-primary" type="reset" value="Reset">
+					</div>
+				  </fieldset>
+				</form>
+			</div>
+			<div class="col-sm-2">
+			</div>
+		</div>
+		<div class="row">
+			<footer>
+                <p><em><b>copyright &copy; Jacek &amp; Kuba &amp; Michał SA</b></em></p>
+            </footer>
+		</div>
+	</div>
+</body>
+</html>

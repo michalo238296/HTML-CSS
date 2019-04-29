@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>This is the page of: Kuba, Jacek and Michał!</title>
+    <meta charset='UTF-8'>
+    <meta name="keywords" content="Restaurant, Al Capone, Italy, Pizza">
+    <meta name="description" content="Al Capone restaurant main page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<base href="mainPage.html">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="cssStyle.css">
+	<style>
+		img{
+			width: 100%;
+			height: auto;
+			opacity: 0.4;
+		}
+		img:hover {
+			opacity: 1;
+		}
+		.chefs figcaption{
+		    text-align: center;
+			font: 25px timesnewroman;
+            color: white;
+		}
+		h2 {
+            text-align: center;
+            font-size: 80px;
+			color: white;
+			font-family: arialblack;
+			margin-top: 70px;
+        }
+		figcaption + p {
+			font: 25px timesnewroman;
+            color: white;
+			text-align: justify;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+        <h1>Al Capone Restaurant</h1>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="mainPage.html">HOME</a>
+			</div>
+			<div id="myNavbar" style="min-width: 600px;">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li>
+						<div class="dropdown">
+							<p>SERVICES</p>
+							<div class="dropdown-content">
+								<a href="restaurant.html">RESTAURANT</a>
+								<a href="hotel.html">HOTEL</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="chef.html">CHEFS</a></li>
+					<li><a href="History.html">HISTORY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="chefs">
+	<h3>Our Chefs : </h3>
+		<div class="container">
+			<div class="row">	
+				<div class="col-md-4">
+					<figure>
+						<div style="border: 30px solid transparent; border-image: url('chefs_hat.png') 36 round;">
+							<img src="Images/chef1.jpg" alt="Tomek">
+						</div>
+						<figcaption><b>Tom</b></figcaption>
+						<p>convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae</p>
+					</figure>
+				</div>
+				<div class="col-md-4">
+					<figure>	
+						<div style="border: 30px solid transparent; border-image: url('chefs_hat.png') 36 round;">
+							<img src="Images/chef2.jpg" alt="Anna">
+						</div>
+						<figcaption><b>Anna</b></figcaption>
+						<p>nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum.</p>
+					</figure>
+				</div>
+				<div class="col-md-4">
+					<figure>	
+						<div style="border: 30px solid transparent; border-image: url('chefs_hat.png') 36 round;">
+							<img src="Images/chef3.jpg" alt="Stefan">
+						</div>
+						<figcaption><b>Stefan</b><span class="badge badge-secondary">New</span></figcaption>
+						<p>ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros</p>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+    <div class='container-fluid'>
+		<div class="row">
+			<footer>
+                <p><em><b>copyright &copy; Jacek &amp; Kuba &amp; Michał SA</b></em></p>
+            </footer> 
+		</div>
+    </div>
+</body>
+</html>
